@@ -73,7 +73,7 @@ def sells():
         sells_price.append(sell_price)
         sells_quantity.append(sell_quantity)
         #sort the sells
-    sells_price,sells_quantity = bubbleSort_sell(sells_price,sells_quantity)
+        sells_price,sells_quantity = bubbleSort_sell(sells_price,sells_quantity)
 
 
     if remove_0>0:
